@@ -1,0 +1,155 @@
+{
+  "basics": {
+    "name": "정용현 /Terry Jung",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "traveler.terry@gmail.com",
+    "phone": "010-5280-4845",
+    "website": "",
+    "summary": "좋은 품질과 사용자 친화적인 소프트웨어를 개발해온 개발자입니다. 신기술에 관심이 많고, 신기술을 여러방면으로 적용해보는 것을 좋아 하며, 커뮤니케이션과 피드백을 좋아하여 프로젝트 종료/스프린트 종료 후 회고를 하는것을 좋아합니다. 단정짓는 행동을 가장 위험하다고 생각하며, 기술에 대해 항상 조심해서 사용하려고 노력하고 있습니다. ",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Seoul",
+      "countryCode": "KR",
+      "region": "Korea, Republic Of."
+    },
+    "profiles": [
+      {
+        "network": "facebook",
+        "username": "Terry Jung",
+        "url": "https://facebook.com/traveler.terry"
+      },
+      {
+        "network": "Youtube",
+        "username": "Terry",
+        "url": "https://www.youtube.com/channel/UC43mBKV3Q6QU3kM1CFKMpqQ"
+      },
+      {
+        "network": "Instagram",
+        "username": "traveler.terry",
+        "url": "https://instagram.com/traveler.terry"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Foresting",
+      "position": "Software Engineer",
+      "website": "http://foresting.io",
+      "startDate": "2018-07-05",
+      "summary": "",
+      "highlights": [
+
+      ]
+
+    },
+    {
+      "company": "Samsung Electronics",
+      "position": "Assistant Engineer",
+      "website": "http://www.samsung.com/sec/",
+      "startDate": "2014-02-17",
+      "endDate": "2017-03-14",
+      "summary": "",
+      "highlights": [
+        "",
+        "",
+        ""
+      ]
+    }
+
+  ],
+  "education": [
+    {
+      "institution": "Gumi University",
+      "area": "Mobile Software Engineering",
+      "studyType": "",
+      "startDate": "2015-03-02",
+      "endDate": "2017-02-03",
+      "courses": [
+        "Mobile Software Engineering - C, Java",
+        "Java Programming"
+      ]
+    },
+    {
+      "institution": "Kumoh Technical Highschool",
+      "area": "Communication Electronics",
+      "studyType": "",
+      "startDate": "2011-03-02",
+      "endDate": "2014-02-14",
+      
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Smarteen App Challenge 2013",
+      "date": "2013",
+      "awarder": "SK Planet",
+      "summary": "인디밴드 공연정보를 중계해주는 서비스를 만들었습니다. PHP로 서버를 개발하고, 안드로이드 앱으로 서비스 하였습니다. 서비스 안에서 기본적인 인디밴드의 정보나 인디밴드들의 공연정보를 보여주고, 개개인이 좋아하는 아티스트에 맞춰 각 아티스트들의 공연정보나 앨범, 음반판매 정보를 큐레이션하여 보여줄수 있도록 기획과 개발, 디자인 전부 담당하였습니다."
+    },
+    {
+      "title": "Born to Global 1st Hackathon",
+      "date": "2013",
+      "awarder": "Born to Global",
+      "summary": "Cocos2d-x 를 활용한 러닝게임을 만들었습니다. '문화' 라는 주제에 맞춰 아이디어를 냈던걸로 기억합니다. 매우 모호한 주제였으나 당시 크리스마스 시즌에 솔로들이 인터넷에서 이야기하는 문화를 생각하다보니 커플들이 손잡고 있는 중간으로 지나가면 점수를 얻는 러닝게임을 만들었습니다."
+    }
+  ],
+  
+  "skills": [
+    {
+      "name": "Android Development",
+      "keywords": [
+        "Java",
+        "XML",
+        "Kotiln(Beginner)"
+        
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+      
+    }
+  ],
+  "languages": [
+    {
+      "language": "Korean",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Travel",
+      "keywords": [
+        "World Travel",
+        "India",
+        "Nepal",
+        "Religion"
+      ]
+    },
+    {  
+      "name": "Content",
+      "keywords": [
+        "Youtube",
+        "Vlog"
+      ]
+    }
+
+  ],
+  "references": [
+    {
+    }
+  ]
+}
