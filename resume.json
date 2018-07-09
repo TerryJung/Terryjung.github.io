@@ -108,7 +108,7 @@
       "name": "Android Development",
       "keywords": [
         "Java",
-        "XML",
+        "XML"
         
       ]
     },
@@ -137,8 +137,7 @@
       "name": "Game",
       "keywords": [
         "Legend of Zelda",
-        "PlayerUnknown's Battlegrounds",
-        
+        "PlayerUnknown's Battlegrounds"
       ]
     },
     {
@@ -159,7 +158,6 @@
         "Book"
       ]
     }
-
-  ],
+  ]
 
 }
