@@ -14,6 +14,11 @@
     },
     "profiles": [
       {
+        "network": "English",
+        "username": "English",
+        "url": "en/"
+      },
+      {
         "network": "Github",
         "username": "Terry Jung",
         "url": "https://github.com/terryjung"
