@@ -1,138 +1,125 @@
 {
-    "basics": {
-      "name": "Yonghyeon Jung / Terry Jung",
-      "label": "Software Engineer",
-      "picture": "",
-      "email": "traveler.terry@gmail.com",
-      "phone": "010-5280-4845",
-      "website": "",
-      "summary": "I am the Android developer who has developed good quality and user friendly software. and i am interested in new technology, I like to try new technology in many ways",
-      "location": {
-        "city": "Seoul",
-        "countryCode": "KR",
-        "region": "Korea, Republic Of."
+  "basics": {
+    "name": "Yonghyeon Jung / Terry Jung",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "traveler.terry@gmail.com",
+    "phone": "010-5280-4845",
+    "website": "",
+    "summary":
+      "I am the Android developer who has developed good quality and user friendly software. and i am interested in new technology, I like to try new technology in many ways",
+    "location": {
+      "city": "Seoul",
+      "countryCode": "KR",
+      "region": "Korea, Republic Of."
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "Terry Jung",
+        "url": "https://github.com/terryjung"
       },
-      "profiles": [
-        {
-          "network": "Github",
-          "username": "Terry Jung",
-          "url": "https://github.com/terryjung"
-        },
-        {
-          "network": "facebook",
-          "username": "Terry Jung",
-          "url": "https://facebook.com/traveler.terry"
-        },
-        {
-          "network": "Youtube",
-          "username": "Terry",
-          "url": "https://www.youtube.com/channel/UC43mBKV3Q6QU3kM1CFKMpqQ"
-        },
-        {
-          "network": "Instagram",
-          "username": "traveler.terry",
-          "url": "https://instagram.com/traveler.terry"
-        }
+      {
+        "network": "facebook",
+        "username": "Terry Jung",
+        "url": "https://facebook.com/traveler.terry"
+      },
+      {
+        "network": "Youtube",
+        "username": "Terry",
+        "url": "https://www.youtube.com/channel/UC43mBKV3Q6QU3kM1CFKMpqQ"
+      },
+      {
+        "network": "Instagram",
+        "username": "traveler.terry",
+        "url": "https://instagram.com/traveler.terry"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Foresting",
+      "position": "Software Engineer",
+      "website": "http://foresting.io",
+      "startDate": "2018-07-05",
+      "summary": "Blockchain-based Social Media platform",
+      "highlights": [
+        "Writing and translation about technical white paper",
+        "Design mobile client architecture and develop"
       ]
     },
-    "work": [
-      {
-        "company": "Foresting",
-        "position": "Software Engineer",
-        "website": "http://foresting.io",
-        "startDate": "2018-07-05",
-        "summary": "Blockchain-based Social Media",
-        "highlights": [
-  
-        ]
-  
-      },
-      {
-        "company": "Samsung Electronics",
-        "position": "Assistant Engineer",
-        "website": "http://www.samsung.com/sec/",
-        "startDate": "2014-02-17",
-        "endDate": "2017-03-14",
-        "summary": "Developed Android framework and application/SDK within Samsung Galaxy Flagship Devices.",
-        "highlights": [
-          "Developed 2nd party application based on edge screen framework. Yahoo YQL, Kakao, Naver, and Twitter are API-based applications that use a lot of network, but because of the environment that can not use other licenses library, I used Volley built in Android Framework.",
-          "Improved the performance after analysis through the application profiling of the setting or view in the edge screen framework. As UI / UX changed, I was responsible for the GUI operation of the app.",
-          "Improved the structure for Samsung Galaxy Smart Cover SDK and Framework . i was responsible for API development between SDK and Framework, structure improvement, and interworking with other applications. i have improved the performance of Window Layers and View"
-        ]
-      }
-  
-    ],
-    "education": [
-      {
-        "institution": "Gumi University",
-        "area": "Mobile Software Engineering",
-        "studyType": "",
-        "startDate": "2015-03-02",
-        "endDate": "2017-02-03",
-        "courses": [
-          "Mobile Software Engineering - C, Java",
-          "Java Programming"
-        ]
-      },
-      {
-        "institution": "Kumoh Technical Highschool",
-        "area": "Communication Electronics",
-        "studyType": "",
-        "startDate": "2011-03-02",
-        "endDate": "2014-02-14",
-        
-        "courses": [
-          "Introduction of electric circuits",
-          "Introduction of electronic circuits",
-          "C Programming"
-        ]
-      }
-    ],
-    "awards": [
-      {
-        "title": "Smarteen App Challenge 2013",
-        "date": "2013-10-11",
-        "awarder": "SK Planet",
-        "summary": ""
-      },
-      {
-        "title": "Born to Global 1st Hackathon",
-        "date": "2013-11-30",
-        "awarder": "Born to Global",
-        "summary": ""
-      }
-    ],
-    
-    "skills": [
-      {
-        "name": "Android Development",
-        "keywords": [
-          "Java",
-          "XML"
-          
-        ]
-      },
-      {
-        "name": "Web Development",
-        "keywords": [
-          "HTML",
-          "CSS",
-          "Javascript"
-        ]
-        
-      }
-    ],
-    "languages": [
-      {
-        "language": "Korean",
-        "fluency": "Native speaker"
-      },
-      {
-        "language": "English",
-        "fluency": "fluent"
-      }
-    ],
-    "interests": [
-    ]
-  
-  }
+    {
+      "company": "Samsung Electronics",
+      "position": "Assistant Engineer",
+      "website": "http://www.samsung.com/sec/",
+      "startDate": "2014-02-17",
+      "endDate": "2017-03-14",
+      "summary":
+        "Developed Android framework and application/SDK within Samsung Galaxy Flagship Devices.",
+      "highlights": [
+        "Developed 2nd party application based on edge screen framework. Yahoo YQL, Kakao, Naver, and Twitter are API-based applications that use a lot of network, but because of the environment that can not use other licenses library, I used Volley built in Android Framework.",
+        "Improved the performance after analysis through the application profiling of the setting or view in the edge screen framework. As UI / UX changed, I was responsible for the GUI operation of the app.",
+        "Improved the structure for Samsung Galaxy Smart Cover SDK and Framework . i was responsible for API development between SDK and Framework, structure improvement, and interworking with other applications. i have improved the performance of Window Layers and View"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Gumi University",
+      "area": "Mobile Software Engineering",
+      "studyType": "",
+      "startDate": "2015-03-02",
+      "endDate": "2017-02-03",
+      "courses": ["Mobile Software Engineering - C, Java", "Java Programming"]
+    },
+    {
+      "institution": "Kumoh Technical Highschool",
+      "area": "Communication Electronics",
+      "studyType": "",
+      "startDate": "2011-03-02",
+      "endDate": "2014-02-14",
+
+      "courses": [
+        "Introduction of electric circuits",
+        "Introduction of electronic circuits",
+        "C Programming"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Smarteen App Challenge 2013",
+      "date": "2013-10-11",
+      "awarder": "SK Planet",
+      "summary": ""
+    },
+    {
+      "title": "Born to Global 1st Hackathon",
+      "date": "2013-11-30",
+      "awarder": "Born to Global",
+      "summary": ""
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Android Development",
+      "keywords": ["Java", "XML", "Kotiln"]
+    },
+    {
+      "name": "Web Development",
+      "keywords": ["HTML", "CSS", "Javascript", "vue.js"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Korean",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "fluent"
+    }
+  ],
+  "interests": []
+}
