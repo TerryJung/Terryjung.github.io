@@ -6,8 +6,7 @@
     "email": "traveler.terry@gmail.com",
     "phone": "010-5280-4845",
     "website": "",
-    "summary":
-      "좋은 품질과 사용자 친화적인 소프트웨어를 개발해온 개발자입니다. 신기술에 관심이 많고, 신기술을 여러방면으로 적용해보는 것을 좋아 하며, 커뮤니케이션과 피드백을 좋아하여 프로젝트 종료/스프린트 종료 후 회고를 하는것을 좋아합니다. 단정짓는 행동을 가장 위험하다고 생각하며, 기술에 대해 항상 조심해서 사용하려고 노력하고 있습니다. ",
+    "summary": "좋은 품질과 사용자 친화적인 소프트웨어를 개발해온 개발자입니다. 신기술에 관심이 많고, 신기술을 여러방면으로 적용해보는 것을 좋아 하며, 커뮤니케이션과 피드백을 좋아하여 프로젝트 종료/스프린트 종료 후 회고를 하는것을 좋아합니다. 단정짓는 행동을 가장 위험하다고 생각하며, 기술에 대해 항상 조심해서 사용하려고 노력하고 있습니다. ",
     "location": {
       "city": "Seoul",
       "countryCode": "KR",
@@ -43,14 +42,15 @@
   },
   "work": [
     {
-      "company": "Foresting",
+      "company": "Foresting HQ",
       "position": "Software Engineer",
       "website": "http://foresting.io",
       "startDate": "2018-07-05",
       "summary": "블록체인기반의 리워드형 소셜미디어 플랫폼을 만들고 있습니다.",
       "highlights": [
-        "테크니컬 화이트페이퍼 작성 및 번역",
-        "모바일 클라이언트 아키텍쳐 설계 및 개발"
+        "테크니컬 화이트페이퍼 작성 및 번역을 진행하였습니다.",
+        "Vue.js를 활용한 포레스팅 웹어플리케이션 개발을 진행중입니다.",
+        "모바일 클라이언트 아키텍쳐 설계 및 개발을 진행중입니다."
       ]
     },
     {
@@ -59,8 +59,7 @@
       "website": "http://www.samsung.com/sec/",
       "startDate": "2014-02-17",
       "endDate": "2018-03-14",
-      "summary":
-        "삼성 플래그쉽 갤럭시 디바이스의 Framework와 Framework Dependency 한 Application, SDK 를 개발하였습니다.",
+      "summary": "삼성 플래그쉽 갤럭시 디바이스의 Framework와 Framework Dependency 한 Application, SDK 를 개발하였습니다.",
       "highlights": [
         "Edge screen Framework 기반의 2nd Party Application 을 제작했습니다. Yahoo YQL, Kakao, Naver, Twitter API 를 사용하여 네트워크를 많이 사용하는 앱들이지만, 다른 라이센스의 라이브러리를 함부로 쓸수 없는 환경때문에 Android Framework 에 내장된 Volley를 이용하였습니다.",
         "Edge screen Framework 내부 Setting 이나 View의 App Profiling 을 통해 분석후 성능개선을 진행하였으며. UI/UX가 바뀜에 따라 앱의 GUI 작업을 담당하였습니다.",
@@ -96,15 +95,13 @@
       "title": "Smarteen App Challenge 2013",
       "date": "2013-10-11",
       "awarder": "SK Planet",
-      "summary":
-        "인디밴드 공연정보를 중계해주는 서비스를 만들었습니다. PHP로 서버를 개발하고, 안드로이드 앱으로 서비스 하였습니다. 서비스 안에서 기본적인 인디밴드의 정보나 인디밴드들의 공연정보를 보여주고, 개개인이 좋아하는 아티스트에 맞춰 각 아티스트들의 공연정보나 앨범, 음반판매 정보를 큐레이션하여 보여줄수 있도록 기획과 개발, 디자인 전부 담당하였습니다."
+      "summary": "인디밴드 공연정보를 중계해주는 서비스를 만들었습니다. PHP로 서버를 개발하고, 안드로이드 앱으로 서비스 하였습니다. 서비스 안에서 기본적인 인디밴드의 정보나 인디밴드들의 공연정보를 보여주고, 개개인이 좋아하는 아티스트에 맞춰 각 아티스트들의 공연정보나 앨범, 음반판매 정보를 큐레이션하여 보여줄수 있도록 기획과 개발, 디자인 전부 담당하였습니다."
     },
     {
       "title": "Born to Global 1st Hackathon",
       "date": "2013-11-30",
       "awarder": "Born to Global",
-      "summary":
-        "Cocos2d-x 를 활용한 러닝게임을 만들었습니다. '문화' 라는 주제에 맞춰 아이디어를 냈던걸로 기억합니다. 매우 모호한 주제였으나 당시 크리스마스 시즌에 솔로들이 인터넷에서 이야기하는 문화를 생각하다보니 커플들이 손잡고 있는 중간으로 지나가면 점수를 얻는 러닝게임을 만들었습니다."
+      "summary": "Cocos2d-x 를 활용한 러닝게임을 만들었습니다. '문화' 라는 주제에 맞춰 아이디어를 냈던걸로 기억합니다. 매우 모호한 주제였으나 당시 크리스마스 시즌에 솔로들이 인터넷에서 이야기하는 문화를 생각하다보니 커플들이 손잡고 있는 중간으로 지나가면 점수를 얻는 러닝게임을 만들었습니다."
     }
   ],
 
@@ -116,6 +113,10 @@
     {
       "name": "Web Development",
       "keywords": ["HTML", "CSS", "Javascript", "Vue.js"]
+    },
+    {
+      "name": "Server Development",
+      "keywords": ["firebase"]
     }
   ],
   "languages": [
