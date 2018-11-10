@@ -49,8 +49,8 @@
       "summary": "블록체인기반의 리워드형 소셜미디어 플랫폼을 만들고 있습니다.",
       "highlights": [
         "테크니컬 화이트페이퍼 작성 및 번역을 진행하였습니다.",
-        "Vue.js를 활용한 포레스팅 웹어플리케이션 개발을 진행중입니다.",
-        "모바일 클라이언트 아키텍쳐 설계 및 개발을 진행중입니다."
+        "Vue.js를 활용한 포레스팅 웹어플리케이션 기획 및 개발을 진행중입니다.",
+        "안드로이드 모바일 클라이언트 아키텍쳐 설계 및 개발을 진행중입니다."
       ]
     },
     {
@@ -104,6 +104,19 @@
       "summary": "Cocos2d-x 를 활용한 러닝게임을 만들었습니다. '문화' 라는 주제에 맞춰 아이디어를 냈던걸로 기억합니다. 매우 모호한 주제였으나 당시 크리스마스 시즌에 솔로들이 인터넷에서 이야기하는 문화를 생각하다보니 커플들이 손잡고 있는 중간으로 지나가면 점수를 얻는 러닝게임을 만들었습니다."
     }
   ],
+  "volunteer": [
+    {
+      "organization": "Cutta",
+      "position": "Contributor",
+      "website": "https://github.com/Cutta/TagView",
+      "startDate": "2018-10-30",
+      "endDate": "2018-11-11",
+      "summary": "Android 앱에서 Tag 라이브러리에 기여하였습니다.",
+      "highlights": [
+        "Tag class 에서 OOP 원칙을 위배하는 멤버변수 직접 접근을 하고 있어 캡슐화를 진행하였습니다.  <a target='_blank' href='https://github.com/Cutta/TagView/pull/52'>Pull Request</a>"
+      ]
+    }
+  ],
 
   "skills": [
     {
@@ -116,7 +129,7 @@
     },
     {
       "name": "Server Development",
-      "keywords": ["firebase"]
+      "keywords": ["firebase", "swagger", "Spring", ".Net Core"]
     }
   ],
   "languages": [
