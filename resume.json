@@ -49,8 +49,9 @@
       "summary": "블록체인기반의 리워드형 소셜미디어 플랫폼을 만들고 있습니다.",
       "highlights": [
         "테크니컬 화이트페이퍼 작성 및 번역을 진행하였습니다.",
-        "Vue.js를 활용한 포레스팅 웹어플리케이션 기획 및 개발을 진행중입니다.",
-        "안드로이드 모바일 클라이언트 아키텍쳐 설계 및 개발을 진행중입니다."
+        "ICO Site 개발 및 유지보수를 담당했습니다.",
+        "Vue.js를 활용한 마케팅용 웹사이트 및 안드로이드 데모 어플리케이션을 개발하였습니다.",
+        "포레스팅의 안드로이드 모바일 클라이언트 아키텍쳐 설계 및 개발을 진행중입니다."
       ]
     },
     {
@@ -115,7 +116,18 @@
       "highlights": [
         "Tag class 에서 OOP 원칙을 위배하는 멤버변수 직접 접근을 하고 있어 캡슐화를 진행하였습니다.  <a target='_blank' href='https://github.com/Cutta/TagView/pull/52'>Pull Request</a>"
       ]
-    }
+    },
+    {
+      "organization": "jillztom",
+      "position": "Contributor",
+      "website": "https://github.com/jillztom/vue-moments-ago/",
+      "startDate": "2018-12-21",
+      "endDate": "2018-12-21",
+      "summary": "Vue.js 의 시간정보를 사람이 읽기좋게 나타내주는 라이브러리에 기여하였습니다.",
+      "highlights": [
+        "Vue.js 의 시간정보를 사람이 읽기좋게 나타내주는 라이브러리로, 언어옵션을 추가하였습니다. (한국어, 일본어)  <a target='_blank' href='https://github.com/jillztom/vue-moments-ago/pull/2'>Pull Request</a>"
+      ]
+    }  
   ],
 
   "skills": [

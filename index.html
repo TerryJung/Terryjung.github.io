@@ -181,8 +181,8 @@ li {
     margin-left: 1.3em;
 }
 
-.highlights>li>p {
-    margin-bottom: 0.5em;
+.highlights > li > p {
+  margin-bottom: 0.5em;
 }
 
 h1 {
@@ -399,7 +399,6 @@ ul.courses li {
     padding: 4px 5px 5px;
     font-size: .9rem;
     line-height: 1;
-    text-transform: lowercase;
     color: #3e6d8e;
     background-color: #dfeaf1;
     border: 0 solid #dfeaf1;
@@ -675,7 +674,8 @@ ul.courses li:hover {
 
 @media print {
     #resume {
-        margin: 0;
+        width: 80%;
+        margin: 2rem auto;
         padding: 0;
         -ms-word-wrap: break-word;
         word-wrap: break-word;
@@ -688,6 +688,12 @@ ul.courses li:hover {
     .item-count {
         display: none;
     }
+
+    p {
+      font-size: 0.9em;
+      line-height: 1.5;
+    }
+
     .company::before,
     .institution::before,
     .organization::before,
@@ -720,12 +726,14 @@ ul.courses li:hover {
     li {
         padding: 0;
     }
+    ul.highlights li p {
+        font-size: .8em;
+    }
     ul.keywords li,
     ul.courses li {
         margin: 0;
         padding: 0;
         font-size: .8rem;
-        text-transform: lowercase;
     }
     ul.keywords li::after,
     ul.courses li::after {
@@ -736,9 +744,6 @@ ul.courses li:hover {
     ul.courses::before {
         font-size: .8rem;
         font-weight: 600;
-    }
-    ul.keywords::before {
-        content: "Skills acquired: ";
     }
     #skills .keywords::before {
         content: '';
@@ -882,6 +887,9 @@ ul.courses li:hover {
     			</h3>
     			 			<ul class="keywords">
     				<li>firebase</li>
+    				<li>swagger</li>
+    				<li>Spring</li>
+    				<li>.Net Core</li>
     			</ul>
     		</div>
     	</section>
@@ -901,8 +909,12 @@ ul.courses li:hover {
     				<div class="position">Software Engineer</div>
     				<div class="company">Foresting HQ</div>
     				<div class="date">
-    				  <span class="startDate">July 2018</span> 
-    					<span class="endDate">- Current</span>
+    				  <span class="startDate">
+              July 2018
+              </span>
+    					<span class="endDate">
+              - Current
+              </span>
     				</div>
     			</header>
     			
@@ -914,8 +926,9 @@ ul.courses li:hover {
             </div>
             <ul class="highlights">
                 <li><p>테크니컬 화이트페이퍼 작성 및 번역을 진행하였습니다.</p></li>
-                <li><p>Vue.js를 활용한 포레스팅 웹어플리케이션 개발을 진행중입니다.</p></li>
-                <li><p>모바일 클라이언트 아키텍쳐 설계 및 개발을 진행중입니다.</p></li>
+                <li><p>ICO Site 개발 및 유지보수를 담당했습니다.</p></li>
+                <li><p>Vue.js를 활용한 마케팅용 웹사이트 및 안드로이드 데모 어플리케이션을 개발하였습니다.</p></li>
+                <li><p>포레스팅의 안드로이드 모바일 클라이언트 아키텍쳐 설계 및 개발을 진행중입니다.</p></li>
             </ul>
         	</div>
         </section>
@@ -928,8 +941,12 @@ ul.courses li:hover {
     				<div class="position">Assistant Engineer</div>
     				<div class="company">Samsung Electronics</div>
     				<div class="date">
-    				  <span class="startDate">February 2014</span> 
-    					<span class="endDate">- March 2018</span> 
+    				  <span class="startDate">
+              February 2014
+              </span>
+    					<span class="endDate">
+              - March 2018
+              </span>
     				</div>
     			</header>
     			
@@ -950,12 +967,89 @@ ul.courses li:hover {
     </section>
     <section class="section">
       <header>
+        <h2 class='section-title'>Volunteer</h2>
+      </header>
+      <section id="volunteer">
+        <section class="volunteer-item">
+    
+            <input id="volunteer-item-0" type="checkbox" class="toggle-item" checked="checked" />
+            <label for="volunteer-item-0"></label>
+    
+          <header>
+            <div class="header-left">
+              <div class="position">
+                Contributor
+              </div>
+              <div class="organization">
+                Cutta
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              October 2018
+              </span>
+              <span class="endDate">
+              - November 2018
+              </span>
+            </div>
+          </header>
+          <div class="website">
+            <a target="_blank" href="https://github.com/Cutta/TagView">https://github.com/Cutta/TagView</a>
+          </div>
+          <div class="item">
+            <div class="summary">
+              <p><p>Android 앱에서 Tag 라이브러리에 기여하였습니다.</p></p>
+            </div>
+            <ul class="highlights">
+              <li><p>Tag class 에서 OOP 원칙을 위배하는 멤버변수 직접 접근을 하고 있어 캡슐화를 진행하였습니다.  <a target='_blank' href='https://github.com/Cutta/TagView/pull/52'>Pull Request</a></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="volunteer-item">
+    
+            <input id="volunteer-item-1" type="checkbox" class="toggle-item" />
+            <label for="volunteer-item-1"></label>
+    
+          <header>
+            <div class="header-left">
+              <div class="position">
+                Contributor
+              </div>
+              <div class="organization">
+                jillztom
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              December 2018
+              </span>
+              <span class="endDate">
+              - December 2018
+              </span>
+            </div>
+          </header>
+          <div class="website">
+            <a target="_blank" href="https://github.com/jillztom/vue-moments-ago/">https://github.com/jillztom/vue-moments-ago/</a>
+          </div>
+          <div class="item">
+            <div class="summary">
+              <p><p>Vue.js 의 시간정보를 사람이 읽기좋게 나타내주는 라이브러리에 기여하였습니다.</p></p>
+            </div>
+            <ul class="highlights">
+              <li><p>Vue.js 의 시간정보를 사람이 읽기좋게 나타내주는 라이브러리로, 언어옵션을 추가하였습니다. (한국어, 일본어)  <a target='_blank' href='https://github.com/jillztom/vue-moments-ago/pull/2'>Pull Request</a></p></li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
         <h2 class='section-title'>Education <span class="item-count">(2)</span></h2>
       </header>
     
       <section id="education">
         <section class="education-item">
-          <header>
+          <header class="clear">
             <div class="header-left">
               <div class="area">
                 Mobile Software Engineering
@@ -984,7 +1078,7 @@ ul.courses li:hover {
           </div>
         </section>
         <section class="education-item">
-          <header>
+          <header class="clear">
             <div class="header-left">
               <div class="area">
                 Communication Electronics
