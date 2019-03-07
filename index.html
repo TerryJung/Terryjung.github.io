@@ -181,8 +181,8 @@ li {
     margin-left: 1.3em;
 }
 
-.highlights > li > p {
-  margin-bottom: 0.5em;
+.highlights>li>p {
+    margin-bottom: 0.5em;
 }
 
 h1 {
@@ -399,6 +399,7 @@ ul.courses li {
     padding: 4px 5px 5px;
     font-size: .9rem;
     line-height: 1;
+    text-transform: lowercase;
     color: #3e6d8e;
     background-color: #dfeaf1;
     border: 0 solid #dfeaf1;
@@ -674,8 +675,7 @@ ul.courses li:hover {
 
 @media print {
     #resume {
-        width: 80%;
-        margin: 2rem auto;
+        margin: 0;
         padding: 0;
         -ms-word-wrap: break-word;
         word-wrap: break-word;
@@ -688,12 +688,6 @@ ul.courses li:hover {
     .item-count {
         display: none;
     }
-
-    p {
-      font-size: 0.9em;
-      line-height: 1.5;
-    }
-
     .company::before,
     .institution::before,
     .organization::before,
@@ -726,14 +720,12 @@ ul.courses li:hover {
     li {
         padding: 0;
     }
-    ul.highlights li p {
-        font-size: .8em;
-    }
     ul.keywords li,
     ul.courses li {
         margin: 0;
         padding: 0;
         font-size: .8rem;
+        text-transform: lowercase;
     }
     ul.keywords li::after,
     ul.courses li::after {
@@ -744,6 +736,9 @@ ul.courses li:hover {
     ul.courses::before {
         font-size: .8rem;
         font-weight: 600;
+    }
+    ul.keywords::before {
+        content: "Skills acquired: ";
     }
     #skills .keywords::before {
         content: '';
@@ -909,12 +904,8 @@ ul.courses li:hover {
     				<div class="position">Software Engineer</div>
     				<div class="company">Foresting HQ</div>
     				<div class="date">
-    				  <span class="startDate">
-              July 2018
-              </span>
-    					<span class="endDate">
-              - Current
-              </span>
+    				  <span class="startDate">July 2018</span> 
+    					<span class="endDate">- January 2019</span> 
     				</div>
     			</header>
     			
@@ -929,6 +920,7 @@ ul.courses li:hover {
                 <li><p>ICO Site 개발 및 유지보수를 담당했습니다.</p></li>
                 <li><p>Vue.js를 활용한 마케팅용 웹사이트 및 안드로이드 데모 어플리케이션을 개발하였습니다.</p></li>
                 <li><p>포레스팅의 안드로이드 모바일 클라이언트 아키텍쳐 설계 및 개발을 진행중입니다.</p></li>
+            </ul>
         	</div>
         </section>
         <section class="work-item">
@@ -940,12 +932,8 @@ ul.courses li:hover {
     				<div class="position">Assistant Engineer</div>
     				<div class="company">Samsung Electronics</div>
     				<div class="date">
-    				  <span class="startDate">
-              February 2014
-              </span>
-    					<span class="endDate">
-              - March 2018
-              </span>
+    				  <span class="startDate">February 2014</span> 
+    					<span class="endDate">- March 2018</span> 
     				</div>
     			</header>
     			
@@ -973,6 +961,41 @@ ul.courses li:hover {
     
             <input id="volunteer-item-0" type="checkbox" class="toggle-item" checked="checked" />
             <label for="volunteer-item-0"></label>
+    
+          <header>
+            <div class="header-left">
+              <div class="position">
+                Main Developer
+              </div>
+              <div class="organization">
+                TerryJung
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              February 2019
+              </span>
+              <span class="endDate">
+              - March 2018
+              </span>
+            </div>
+          </header>
+          <div class="website">
+            <a target="_blank" href="https://github.com/TerryJung/SwipeAnimationButton">https://github.com/TerryJung/SwipeAnimationButton</a>
+          </div>
+          <div class="item">
+            <div class="summary">
+              <p><p>Android Custom View 라이브러리입니다.</p></p>
+            </div>
+            <ul class="highlights">
+              <li><p>Swipe 동작을 활용한 Animation view 가 필요하여 직접 제작하였습니다.</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="volunteer-item">
+    
+            <input id="volunteer-item-1" type="checkbox" class="toggle-item" />
+            <label for="volunteer-item-1"></label>
     
           <header>
             <div class="header-left">
@@ -1006,8 +1029,8 @@ ul.courses li:hover {
         </section>
         <section class="volunteer-item">
     
-            <input id="volunteer-item-1" type="checkbox" class="toggle-item" />
-            <label for="volunteer-item-1"></label>
+            <input id="volunteer-item-2" type="checkbox" class="toggle-item" />
+            <label for="volunteer-item-2"></label>
     
           <header>
             <div class="header-left">
@@ -1048,7 +1071,7 @@ ul.courses li:hover {
     
       <section id="education">
         <section class="education-item">
-          <header class="clear">
+          <header>
             <div class="header-left">
               <div class="area">
                 Mobile Software Engineering
@@ -1077,7 +1100,7 @@ ul.courses li:hover {
           </div>
         </section>
         <section class="education-item">
-          <header class="clear">
+          <header>
             <div class="header-left">
               <div class="area">
                 Communication Electronics

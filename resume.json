@@ -46,6 +46,7 @@
       "position": "Software Engineer",
       "website": "http://foresting.io",
       "startDate": "2018-07-05",
+      "endDate": "2019-01-31",
       "summary": "블록체인기반의 리워드형 소셜미디어 플랫폼을 만들고 있습니다.",
       "highlights": [
         "테크니컬 화이트페이퍼 작성 및 번역을 진행하였습니다.",
@@ -106,6 +107,17 @@
     }
   ],
   "volunteer": [
+    {
+      "organization": "TerryJung",
+      "position": "Main Developer",
+      "website": "https://github.com/TerryJung/SwipeAnimationButton",
+      "startDate": "2019-02-01",
+      "endDate": "2018-03-05",
+      "summary": "Android Custom View 라이브러리입니다.",
+      "highlights": [
+        "Swipe 동작을 활용한 Animation view 가 필요하여 직접 제작하였습니다."
+      ]
+    },
     {
       "organization": "Cutta",
       "position": "Contributor",
